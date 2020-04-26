@@ -1,0 +1,252 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Montserrat,sans-serif;
+	background-color:#f2f2f2
+}
+ul li a {
+	color:inherit;
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+
+.header-content {
+	font-size:13px;
+	padding: 40px 0;
+	
+
+	color:#fff;
+}
+
+.header-content ul > li {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 30px;
+}
+.head {
+	background-image: url(../img/capa-madmax2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 90vh;
+	position:relative;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav.container{
+	width:100%;
+	z-index: 2;
+}
+.head::after {
+	background: linear-gradient( 0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 212, 255, 0) 75% );
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.flex{
+	display:flex;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.flex-header {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.login-area {
+	max-width:200px;
+	align-items: center;
+}
+.login-area img {
+	border-radius: 100%;
+	max-width: 45px;
+	margin-right: 20px;
+}
+.promotion-movie {
+	color:#fff;
+	z-index:2;
+	
+}
+
+.head::after{
+	content:"";
+	background: linear-gradient( 0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 212, 255, 0) 75% );
+}
+
+h2.promotional-title {
+	font-size: 65px;
+	margin: 0;
+}
+
+.genres-description {
+	text-transform: uppercase;
+	padding: 0 0 20px;
+}
+.genres-description li a{
+	margin: 0 10px;
+}
+
+.trailer-btn {
+	display: inline-block;
+	background-color: #e4bb23;
+	padding: 10px 20px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	font-size: 1.5em;
+}
+
+a.trailer-btn{
+	text-decoration: none;
+	color:black;
+}
+
+.movie-release {
+	margin-bottom: 20vh;
+}
+.release-date {
+	color:#bc9a1d;
+}
+
+.movie-nav ul {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+.movie-nav ul li {
+	margin: 0 10px;
+}
+
+.poster-list {
+	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width:100%;
+	padding: 20px 0;
+
+}
+.poster-card {
+	width: 24%;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.visual-card {
+	width:100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+.visual-card img {
+	width:100%;
+	height: auto;
+}
+.card-animation {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index:1;
+	visibility: hidden;
+	transition: all 0.2s ease-in-out;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+.poster-card:hover .card-animation {
+	visibility: visible;
+	opacity: 1;
+}
+
+.card-animation h3 {
+	color:#e4bb23;
+	font-size:20px;
+}
+.card-animation a i {
+	color:white;
+	font-size: 3em;
+	transition: all 0.2s ease-in-out;
+}
+.card-animation i:hover {
+	color: #e4bb23;
+}
+ .card-sinopse {
+	padding:5px 10px;
+}
+.card-sinopse i {
+	color:#bababa;
+}
+.card-sinopse i:hover {
+	color:#e74c3c
+}
+.sinopse-movie-title {
+	font-size: 13px;
+	font-weight: bold;
+	margin:0;
+}
+.sinopse-genre {
+	color:#e4bb23;
+	font-size: 12px;
+}
+.sinopse-grade-area {
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	font-size:20px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer > img {
+	height: 100%;
+}
+.footer-social-area li {
+	display: flex;
+	margin: 0 20px;
+	font-size: 2.5em;
+	color:#bababa
+}
+
+
+.movie-nav ul {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+	padding: 0 20px;
+}
+.movie-nav li {
+	text-transform:uppercase;
+	font-weight: bold;
+	color: #e4bb23;
+	font-size: 13px;
+
+}
+.movie-nav li {
+	padding: 20px 0;
+}
+
+.movie-nav li:hover {
+	box-shadow:inset 0 -1px 0 #e4bb23;
+}
