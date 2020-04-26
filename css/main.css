@@ -31,11 +31,11 @@ li {
 	margin: 0 30px;
 }
 .head {
-	background-image: url(../img/capa-madmax2.jpg);
+	background-image: url(../img/capa_pulp_fiction.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 90vh;
+	height: 100vh;
 	position:relative;
 	display: flex;
     flex-direction: column;
@@ -90,6 +90,7 @@ nav.container{
 h2.promotional-title {
 	font-size: 65px;
 	margin: 0;
+	text-transform: uppercase;
 }
 
 .genres-description {
@@ -116,6 +117,14 @@ a.trailer-btn{
 
 .movie-release {
 	margin-bottom: 20vh;
+}
+.movie-release p{
+	display: flex;
+    align-items: center
+}
+.movie-release img {
+	margin-left: 10px;
+	max-width: 45px
 }
 .release-date {
 	color:#bc9a1d;
