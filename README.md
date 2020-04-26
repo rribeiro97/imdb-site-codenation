@@ -15,4 +15,4 @@ Esse projeto busca recriar a página do IMDB dado um layout de exemplo.
     - SEO Audit 100.
     - Imagens em webp.
 
-    ** Esse projeto não tem como objetivo testar conhecimentos sobre responsividade **
+    Esse projeto não tem como objetivo testar conhecimentos sobre responsividade 
